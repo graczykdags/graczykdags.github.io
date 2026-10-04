@@ -1,0 +1,70 @@
+:root {
+  color-scheme: light;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #202922;
+  background: #f6f4ee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 280px;
+  line-height: 1.65;
+}
+
+.page {
+  width: min(100% - 2rem, 760px);
+  margin: 0 auto;
+}
+
+.site-header {
+  padding: 3.5rem 0 1.5rem;
+  border-bottom: 1px solid #d6d9d1;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 10vw, 4rem);
+}
+
+section {
+  padding: 2rem 0;
+  border-bottom: 1px solid #d6d9d1;
+}
+
+h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.7rem;
+}
+
+p {
+  max-width: 65ch;
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+footer {
+  padding: 1.5rem 0 2rem;
+  color: #505a51;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 480px) {
+  .site-header {
+    padding-top: 2.5rem;
+  }
+
+  section {
+    padding: 1.5rem 0;
+  }
+}
